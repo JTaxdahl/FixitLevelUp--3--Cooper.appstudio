@@ -1,6 +1,6 @@
 //Functions for calculating future value
 function carLoanPayment (a1, a2, a3) {
-  let carFutureValue = a1 * (1 + a2) ** a3/ (1+a2)**(a3-1)8
+  let carFutureValue = a1 * (1 + a2) ** a3/ (1+a2)**(a3-1))
     return carFutureValue
 }
 function homeLoan (b1, b2, b3) {
