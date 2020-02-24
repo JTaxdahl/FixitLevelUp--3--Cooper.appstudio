@@ -4,7 +4,7 @@ function carLoanPayment (a1, a2, a3) {
     return carFutureValue
 }
 function homeLoan (b1, b2, b3) {
-  let homeFutureValue = b1 * (1 + b2) ** b3/ ((a+a2)**(a3-1))
+  let homeFutureValue = b1 * (1 + b2) ** b3/ ((1+b2)**(b3-1))
     return homeFutureValue
 }
 //Main program that prompts loan type
